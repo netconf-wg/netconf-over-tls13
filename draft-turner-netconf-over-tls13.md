@@ -67,7 +67,7 @@ authenticate the server and to encrypt the early data.
 
 As noted in {{Section 2.3 of I-D.ietf-tls-rfc8446bis}}, the security
 properties for early data are weaker than those for subsequent TLS-protected
-data. In particular, early data is not forward secret, and there are no
+data. In particular, early data is not forward secret, and there is no
 protection against the replay of early data between connections.
 {{Appendix E.5 of I-D.ietf-tls-rfc8446bis}} requires applicaitons not
 use early data without a profile that defines its use. This document
@@ -120,8 +120,8 @@ to ensure that only authorized users and systems are able to view the
 NETCONF server's configuration and state or to modify the NETCONF
 server's configuration. To this end, neither the client nor the server
 should establish a NETCONF over TLS 1.3 connection with an unknown,
-unexpected, or incorrect peer identity; see {{Section 7 of RFC7589}}. If
-deployments make use of this list of Certification Authority (CA)
+unexpected, or incorrectly identified peer; see {{Section 7 of RFC7589}}. If
+deployments make use of a trusted list of Certification Authority (CA)
 certificates {{!RFC5280}}, then the listed CAs should only issue certificates
 to parties that are authorized to access the NETCONF servers. Doing otherwise
 will allow certificates that were issued for other purposes to be
