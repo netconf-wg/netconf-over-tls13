@@ -69,7 +69,7 @@ As noted in {{Section 2.3 of I-D.ietf-tls-rfc8446bis}}, the security
 properties for early data are weaker than those for subsequent TLS-protected
 data. In particular, early data is not forward secret, and there is no
 protection against the replay of early data between connections.
-{{Appendix E.5 of I-D.ietf-tls-rfc8446bis}} requires applicaitons not
+{{Appendix E.5 of I-D.ietf-tls-rfc8446bis}} requires applications not
 use early data without a profile that defines its use. This document
 specifies that implementations MUST NOT use early data.
 
