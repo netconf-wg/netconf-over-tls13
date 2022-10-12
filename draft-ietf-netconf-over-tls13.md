@@ -140,17 +140,6 @@ validation in the TLS context.
 Please review the recommendations regarding certificate revocation checking
 in {{Section 7.5 of I-D.ietf-uta-rfc7525bis}}.
 
-{{!RFC5539}} assumes that the end-of-message (EOM) sequence, ]]>]]>,
-cannot appear in any well-formed XML document, which turned out to be
-mistaken. The EOM sequence can cause operational problems and open
-space for attacks if sent deliberately in NETCONF messages. While it is
-possible, the likelihood is believed to be very low.  The EOM sequence is
-used for the initial \<hello\> message to avoid incompatibility with existing
-implementations.  When the client and server both implement the :base:1.1
-capability, a proper framing protocol (see {{Section 3 of RFC7589}}) is used
-for the rest of the NETCONF session, to avoid injection attacks.
-
-
 # IANA Considerations
 
 IANA is requested to add a reference to this document in the
