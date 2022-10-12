@@ -3,7 +3,7 @@ title: NETCONF over TLS 1.3
 abbrev: NETCONF over TLS 1.3
 category: std
 
-docname: draft-turner-netconf-over-tls13-latest
+docname: draft-ietf-netconf-over-tls13-latest
 submissiontype: IETF
 consensus: true
 v: 3
@@ -12,6 +12,13 @@ workgroup: "Network Configuration"
 keyword:
  - NETCONF
  - TLS 1.3
+venue:
+  group: "Network Configuration"
+  type: "Working Group"
+  mail: "netconf@ietf.org"
+  arch: "https://mailarchive.ietf.org/arch/browse/netconf/"
+  github: "netconf-wg/netconf-over-tls13"
+  latest: "https://netconf-wg.github.io/netconf-over-tls13/draft-ietf-netconf-over-tls13.html"
 
 author:
  -
