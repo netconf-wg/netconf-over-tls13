@@ -67,9 +67,11 @@ identity.
 
 Early data (aka 0-RTT data) is a mechanism defined in TLS 1.3
 {{I-D.ietf-tls-rfc8446bis}} that allows a client to send data ("early data")
-as part of the first flight of messages to a server. Early data is
-permitted by TLS 1.3 when the client and server share a PSK, either obtained
-externally or via a previous handshake. The client uses the PSK to
+as part of the first flight of messages to a server. Note that TLS 1.3 can
+be used without early data early data as per
+{{Section F.5 of I-D.ietf-tls-rfc8446bis}}. In fact, early data is permitted
+by TLS 1.3 only when the client and server share a Pre-Shared Key (PSK),
+either obtained externally or via a previous handshake. The client uses the PSK to
 authenticate the server and to encrypt the early data.
 
 As noted in {{Section 2.3 of I-D.ietf-tls-rfc8446bis}}, the security
@@ -78,7 +80,7 @@ data. In particular, early data is not forward secret, and there are no
 protection against the replay of early data between connections.
 {{Appendix E.5 of I-D.ietf-tls-rfc8446bis}} requires applicaitons not
 use early data without a profile that defines its use. This document
-specifies that implementations MUST NOT use early data.
+specifies that implementations that support TLS 1.3 MUST NOT use early data.
 
 # Cipher Suites
 
