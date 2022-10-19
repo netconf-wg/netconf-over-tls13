@@ -80,19 +80,20 @@ data. In particular, early data is not forward secret, and there are no
 protection against the replay of early data between connections.
 {{Appendix E.5 of I-D.ietf-tls-rfc8446bis}} requires applicaitons not
 use early data without a profile that defines its use. This document
-specifies that implementations that support TLS 1.3 MUST NOT use early data.
+specifies that NETCONF implementations that support TLS 1.3 MUST NOT use early
+data.
 
 # Cipher Suites
 
-Implementations MUST support TLS 1.3 {{I-D.ietf-tls-rfc8446bis}}, and
-implementation are REQUIRED to support the mandatory-to-implement cipher
-suites listed in {{Section 9.1 of I-D.ietf-tls-rfc8446bis}}.
+Implementations that support TLS 1.3 {{I-D.ietf-tls-rfc8446bis}} are REQUIRED
+to support the mandatory-to-implement cipher suites listed in
+{{Section 9.1 of I-D.ietf-tls-rfc8446bis}}.
 
-Implementations MAY implement additional TLS cipher suites that provide
-mutual authentication and confidentiality, which are required for NETCONF
-{{RFC6241}}.
+Implementations that support TLS 1.3 MAY implement additional TLS cipher
+suites that provide mutual authentication and confidentiality, which are
+required for NETCONF {{RFC6241}}.
 
-Implementations SHOULD follow the recommendations given in
+NETCONF implementations SHOULD follow the recommendations given in
 {{!I-D.ietf-uta-rfc7525bis}}.
 
 ~~~
