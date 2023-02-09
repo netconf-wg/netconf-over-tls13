@@ -117,14 +117,16 @@ My guess is not.  These ought to be available in all TLS libraries.
 
 # Security Considerations
 
-Please review the Security Considerations in TLS 1.3 {{I-D.ietf-tls-rfc8446bis}}.
+The Security Considerations of {{RFC6241}}, {{RFC7589}}, and {{RFC9325}}
+apply here as well.
 
-Please review the recommendations regarding Diffie-Hellman exponent reuse
-in {{Section 7.4 of I-D.ietf-uta-rfc7525bis}}.
+For implementations that support TLS 1.3, the Security Considerations of
+TLS 1.3 {{I-D.ietf-tls-rfc8446bis}} apply.
 
-Please review the Security Considerations in NETCONF {{!RFC6241}}.
+The following considerations from {{RFC7589}} has been modified to also
+apply to TLS 1.3 {{I-D.ietf-tls-rfc8446bis}:
 
-NETCONF is used to access configuration and state information and to
+> NETCONF is used to access configuration and state information and to
 modify configuration information. TLS 1.3 mutual authentication is used
 to ensure that only authorized users and systems are able to view the
 NETCONF server's configuration and state or to modify the NETCONF
@@ -137,11 +139,10 @@ to parties that are authorized to access the NETCONF servers. Doing otherwise
 will allow certificates that were issued for other purposes to be
 inappropriately accepted by a NETCONF server.
 
-Please review {{?RFC6125}} for further details on generic host name
-validation in the TLS context.
+The Security Considerations of {{!RFC6125}} apply to all implementations
+when the client checks the identity of the server, as is required in
+{{Section 6 of RFC7589}}.
 
-Please review the recommendations regarding certificate revocation checking
-in {{Section 7.5 of I-D.ietf-uta-rfc7525bis}}.
 
 # IANA Considerations
 
