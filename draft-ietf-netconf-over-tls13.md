@@ -124,7 +124,7 @@ For implementations that support TLS 1.3, the Security Considerations of
 TLS 1.3 {{I-D.ietf-tls-rfc8446bis}} apply.
 
 The following considerations from {{RFC7589}} has been modified to also
-apply to TLS 1.3 {{I-D.ietf-tls-rfc8446bis}:
+apply to TLS 1.3 {{I-D.ietf-tls-rfc8446bis}}:
 
 > NETCONF is used to access configuration and state information and to
 modify configuration information. TLS 1.3 mutual authentication is used
