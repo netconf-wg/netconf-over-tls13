@@ -139,7 +139,7 @@ to parties that are authorized to access the NETCONF servers. Doing otherwise
 will allow certificates that were issued for other purposes to be
 inappropriately accepted by a NETCONF server.
 
-The Security Considerations of {{!RFC6125}} apply to all implementations
+The Security Considerations of {{!I-D.ietf-uta-rfc6125bis}} apply to all implementations
 when the client checks the identity of the server, as is required in
 {{Section 6 of RFC7589}}.
 
