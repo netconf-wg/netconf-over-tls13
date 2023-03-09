@@ -94,14 +94,14 @@ suites that provide mutual authentication and confidentiality, which are
 required for NETCONF {{RFC6241}}.
 
 NETCONF implementations SHOULD follow the recommendations given in
-{{!I-D.ietf-uta-rfc7525bis}}.
+{{!RFC9325}}.
 
 # Security Considerations
 
 Please review the Security Considerations in TLS 1.3 {{I-D.ietf-tls-rfc8446bis}}.
 
 Please review the recommendations regarding Diffie-Hellman exponent reuse
-in {{Section 7.4 of I-D.ietf-uta-rfc7525bis}}.
+in {{Section 7.4 of RFC9325}}.
 
 Please review the Security Considerations in NETCONF {{!RFC6241}}.
 
@@ -122,7 +122,7 @@ Please review {{?RFC6125}} for further details on generic host name
 validation in the TLS context.
 
 Please review the recommendations regarding certificate revocation checking
-in {{Section 7.5 of I-D.ietf-uta-rfc7525bis}}.
+in {{Section 7.5 of RFC9325}}.
 
 # IANA Considerations
 
