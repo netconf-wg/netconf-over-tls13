@@ -48,7 +48,7 @@ This document describes how to protect NETCONF messages with TLS 1.3.
 # Introduction
 
 {{!RFC7589}} defines how to protect NETCONF messages {{!RFC6241}} with
-TLS 1.2 {{?RFC5246}}. This document describes defines how to protect
+TLS 1.2 {{?RFC5246}}. This document describes how to protect
 NETCONF messages with TLS 1.3 {{!I-D.ietf-tls-rfc8446bis}}.
 
 This document addresses cipher suites and the use of early data, which is also
