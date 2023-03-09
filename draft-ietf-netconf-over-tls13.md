@@ -48,7 +48,7 @@ This document describes how to protect NETCONF messages with TLS 1.3.
 # Introduction
 
 {{!RFC7589}} defines how to protect NETCONF messages {{!RFC6241}} with
-TLS 1.2 {{?RFC5246}}. This document describes defines how to protect
+TLS 1.2 {{?RFC5246}}. This document describes how to protect
 NETCONF messages with TLS 1.3 {{!I-D.ietf-tls-rfc8446bis}}.
 
 This document addresses cipher suites and the use of early data, which is also
@@ -94,26 +94,7 @@ suites that provide mutual authentication and confidentiality, which are
 required for NETCONF {{RFC6241}}.
 
 NETCONF implementations SHOULD follow the recommendations given in
-{{!I-D.ietf-uta-rfc7525bis}}.
-
-~~~
-So, this is what {{Section 9.1 of I-D.ietf-tls-rfc8446bis}} says:
-
-  A TLS-compliant application MUST implement the TLS_AES_128_GCM_SHA256
-  [GCM] cipher suite and SHOULD implement the TLS_AES_256_GCM_SHA384
-  [GCM] and TLS_CHACHA20_POLY1305_SHA256 [RFC8439] cipher suites (see
-  Appendix B.4).
-
-  A TLS-compliant application MUST support digital signatures with
-  rsa_pkcs1_sha256 (for certificates), rsa_pss_rsae_sha256 (for
-  CertificateVerify and certificates), and ecdsa_secp256r1_sha256.  A
-  TLS-compliant application MUST support key exchange with secp256r1
-  (NIST P-256) and SHOULD support key exchange with X25519 [RFC7748].
-
-Is there any reason to narrow the algorithm choices?
-
-My guess is not.  These ought to be available in all TLS libraries.
-~~~
+{{!RFC9325}}.
 
 # Security Considerations
 
@@ -142,7 +123,6 @@ inappropriately accepted by a NETCONF server.
 The Security Considerations of {{!I-D.ietf-uta-rfc6125bis}} apply to all implementations
 when the client checks the identity of the server, as is required in
 {{Section 6 of RFC7589}}.
-
 
 # IANA Considerations
 
