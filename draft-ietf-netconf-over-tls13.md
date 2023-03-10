@@ -163,5 +163,5 @@ registry entry would appear as follows:
 # Acknowledgments
 {:numbered="false"}
 
-We would like to thank Per Andersson, Jürgen Schönwälder, and Jeff
-Hartley for their reviews.
+We would like to thank Per Andersson, Jürgen Schönwälder, Jeff
+Hartley, and Qin Wu for their reviews.
