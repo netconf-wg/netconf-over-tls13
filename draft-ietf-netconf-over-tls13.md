@@ -1,6 +1,6 @@
 ---
-title: NETCONF over TLS 1.3
-abbrev: NETCONF over TLS 1.3
+title: Updates to Using the NETCONF Protocol over Transport Layer Security (TLS) with Mutual X.509 Authentication
+abbrev: NETCONF over TLS
 category: std
 
 docname: draft-ietf-netconf-over-tls13-latest
@@ -13,6 +13,8 @@ workgroup: "Network Configuration"
 keyword:
  - NETCONF
  - TLS 1.3
+ - TLS 1.2
+ - Early Data
 venue:
   group: "Network Configuration"
   type: "Working Group"
@@ -41,7 +43,7 @@ author:
 --- abstract
 
 RFC 7589 defines how to protect NETCONF messages with TLS 1.2. This
-document updates RFC 8325 to address support requirements for TLS 1.2
+document updates RFC 7589 to address support requirements for TLS 1.2
 and TLS 1.3 and the use of TLS 1.3's early data.
 
 --- middle
@@ -49,17 +51,19 @@ and TLS 1.3 and the use of TLS 1.3's early data.
 # Introduction
 
 {{!RFC7589}} defines how to protect NETCONF messages {{!RFC6241}} with
-TLS 1.2 {{!RFC5246}}. This document defines how to protect
-NETCONF messages with TLS 1.3 {{!I-D.ietf-tls-rfc8446bis}}. This
-document also updates {{RFC7589}} to address support requirements for
-the mandatory to implement TLS 1.2 cipher suite and TLS 1.3 {{!I-D.ietf-tls-rfc8446bis}}.
-
-This document addresses cipher suites and the use of early data, which is also
-known as 0-RTT data. It also updates the "netconf-tls" IANA Registered Port
-Number entry to refer to this document. All other provisions set forth
-in {{RFC7589}} are unchanged, including connection initiation, message framing,
+TLS 1.2 {{!RFC5246}}. This document updates {{RFC7589}} to address
+support requirements for TLS 1.2 {{RFC5246}} and TLS 1.3 {{!I-D.ietf-tls-rfc8446bis}}
+and the use of TLS 1.3's early data, which is also known as 0-RTT data.
+It also updates the "netconf-tls" IANA Registered Port Number entry to
+refer to this document. All other provisions set forth in {{RFC7589}}
+are unchanged, including connection initiation, message framing,
 connection closure, certificate validation, server identity, and client
 identity.
+
+<aside markdown="block">
+  Implementations that support TLS 1.3 {{I-D.ietf-tls-rfc8446bis}} should
+  refer to TLS 1.3 {{!I-D.ietf-tls-rfc8446bis}} in {{Sections 4 and 5 of RFC7589}}.
+</aside>
 
 
 # Conventions and Definitions
