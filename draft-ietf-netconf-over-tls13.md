@@ -90,7 +90,7 @@ data.
 # Cipher Suites
 
 Implementations MUST support TLS 1.2 {{RFC5246}} and are REQUIRED to
-support the mandatory-to-implement cipher suite.
+support the TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 cipher suite {{RFC9325}}.
 
 Implementations MAY implement additional TLS cipher suites that provide
 mutual authentication {{RFC5246}} and confidentiality as required by
