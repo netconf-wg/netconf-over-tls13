@@ -43,7 +43,7 @@ author:
 RFC 7589 defines how to protect NETCONF messages with TLS 1.2. This
 document describes how to protect NETCONF messages with TLS 1.3. This
 document also updates RFC 7589 to address support requirements for
-TLS 1.3.
+the mandatory to implement TLS 1.2 cipher suite and TLS 1.3.
 
 --- middle
 
