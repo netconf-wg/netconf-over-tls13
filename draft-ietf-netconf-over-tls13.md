@@ -158,4 +158,5 @@ registry entry would appear as follows:
 # Acknowledgments
 {:numbered="false"}
 
-We would like to thank the following people TBD.
+We would like to thank Per Andersson, Jürgen Schönwälder, Jeff
+Hartley, and Qin Wu for their reviews.
