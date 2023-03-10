@@ -41,9 +41,8 @@ author:
 --- abstract
 
 RFC 7589 defines how to protect NETCONF messages with TLS 1.2. This
-document updates RFC 8325 to address TLS 1.2 and TLS 1.3 cipher
-suites, support requirements for TLS 1.2 and TLS 1.3, and the
-use of TLS 1.3's early data, which is also known as 0-RTT data.
+document updates RFC 8325 to address support requirements for TLS 1.2
+and TLS 1.3 and the use of TLS 1.3's early data.
 
 --- middle
 
