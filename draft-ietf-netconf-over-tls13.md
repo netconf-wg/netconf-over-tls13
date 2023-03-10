@@ -53,7 +53,7 @@ the mandatory to implement TLS 1.2 cipher suite and TLS 1.3.
 TLS 1.2 {{!RFC5246}}. This document defines how to protect
 NETCONF messages with TLS 1.3 {{!I-D.ietf-tls-rfc8446bis}}. This
 document also updates {{RFC7589}} to address support requirements for
-TLS 1.3 {{!I-D.ietf-tls-rfc8446bis}}.
+the mandatory to implement TLS 1.2 cipher suite and TLS 1.3 {{!I-D.ietf-tls-rfc8446bis}}.
 
 This document addresses cipher suites and the use of early data, which is also
 known as 0-RTT data. It also updates the "netconf-tls" IANA Registered Port
