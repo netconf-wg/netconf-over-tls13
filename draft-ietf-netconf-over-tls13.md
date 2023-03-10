@@ -7,6 +7,7 @@ docname: draft-ietf-netconf-over-tls13-latest
 submissiontype: IETF
 consensus: true
 v: 3
+updates: 7589
 area: "Operations and Management"
 workgroup: "Network Configuration"
 keyword:
@@ -39,17 +40,19 @@ author:
 
 --- abstract
 
-RFC 7589 defines how to protect NETCONF messages with TLS 1.2.
-This document describes how to protect NETCONF messages with TLS 1.3.
-
+RFC 7589 defines how to protect NETCONF messages with TLS 1.2. This
+document updates RFC 8325 to address support requirements for TLS 1.2
+and TLS 1.3 and the use of TLS 1.3's early data.
 
 --- middle
 
 # Introduction
 
 {{!RFC7589}} defines how to protect NETCONF messages {{!RFC6241}} with
-TLS 1.2 {{?RFC5246}}. This document describes how to protect
-NETCONF messages with TLS 1.3 {{!I-D.ietf-tls-rfc8446bis}}.
+TLS 1.2 {{!RFC5246}}. This document defines how to protect
+NETCONF messages with TLS 1.3 {{!I-D.ietf-tls-rfc8446bis}}. This
+document also updates {{RFC7589}} to address support requirements for
+the mandatory to implement TLS 1.2 cipher suite and TLS 1.3 {{!I-D.ietf-tls-rfc8446bis}}.
 
 This document addresses cipher suites and the use of early data, which is also
 known as 0-RTT data. It also updates the "netconf-tls" IANA Registered Port
@@ -85,8 +88,19 @@ data.
 
 # Cipher Suites
 
-Implementations that support TLS 1.3 {{I-D.ietf-tls-rfc8446bis}} are REQUIRED
-to support the mandatory-to-implement cipher suites listed in
+Implementations MUST support TLS 1.2 {{RFC5246}} and are REQUIRED to
+support the TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 cipher suite {{!RFC9325}}.
+
+Implementations MAY implement additional TLS 1.2 cipher suites that provide
+mutual authentication {{RFC5246}} and confidentiality as required by
+NETCONF {{RFC6241}}.
+
+Implementations SHOULD support TLS 1.3 {{I-D.ietf-tls-rfc8446bis}} and,
+if implemented, MUST prefer to negotiate TLS 1.3 over earlier versions
+of TLS.
+
+Implementations that support TLS 1.3 {{I-D.ietf-tls-rfc8446bis}} are
+REQUIRED to support the mandatory-to-implement cipher suites listed in
 {{Section 9.1 of I-D.ietf-tls-rfc8446bis}}.
 
 Implementations that support TLS 1.3 MAY implement additional TLS cipher
