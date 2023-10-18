@@ -43,17 +43,18 @@ author:
 --- abstract
 
 RFC 7589 defines how to protect NETCONF messages with TLS 1.2. This
-document updates RFC 7589 to address support requirements for TLS 1.2
-and TLS 1.3 and the use of TLS 1.3's early data.
+document updates RFC 7589 to update support requirements for TLS 1.2
+and add TLS 1.3 support requirements, including restrictions on the
+use of TLS 1.3's early data.
 
 --- middle
 
 # Introduction
 
 {{!RFC7589}} defines how to protect NETCONF messages {{!RFC6241}} with
-TLS 1.2 {{!RFC5246}}. This document updates {{RFC7589}} to address
-support requirements for TLS 1.2 {{RFC5246}} and TLS 1.3 {{!I-D.ietf-tls-rfc8446bis}}
-and the use of TLS 1.3's early data, which is also known as 0-RTT data.
+TLS 1.2 {{!RFC5246}}. This document updates {{RFC7589}} to update
+support requirements for TLS 1.2 {{RFC5246}} and to add TLS 1.3 {{!I-D.ietf-tls-rfc8446bis}}
+support requirements, including restrictions on the use of TLS 1.3's early data which is also known as 0-RTT data.
 It also updates the "netconf-tls" IANA Registered Port Number entry to
 refer to this document. All other provisions set forth in {{RFC7589}}
 are unchanged, including connection initiation, message framing,
@@ -111,22 +112,21 @@ Implementations that support TLS 1.3 MAY implement additional TLS cipher
 suites that provide mutual authentication and confidentiality, which are
 required for NETCONF {{RFC6241}}.
 
-NETCONF implementations SHOULD follow the recommendations given in
-{{!RFC9325}}.
-
 # Security Considerations
 
-The Security Considerations of {{RFC6241}}, {{RFC7589}}, and {{RFC9325}}
+The Security Considerations of {{RFC6241}}, {{RFC7589}}, and {{!RFC9325}}
 apply here as well.
+
+NETCONF implementations SHOULD follow the recommendations given in
+{{RFC9325}}.
 
 For implementations that support TLS 1.3, the Security Considerations of
 TLS 1.3 {{I-D.ietf-tls-rfc8446bis}} apply.
 
-The following considerations from {{RFC7589}} has been modified to also
-apply to TLS 1.3 {{I-D.ietf-tls-rfc8446bis}}:
+As specified in {{RFC7589}}, NETCONF over TLS requires mutual authentication.
+For implementations that support TLS 1.3 {{I-D.ietf-tls-rfc8446bis}}:
 
-> NETCONF is used to access configuration and state information and to
-modify configuration information. TLS 1.3 mutual authentication is used
+> TLS 1.3 mutual authentication is used
 to ensure that only authorized users and systems are able to view the
 NETCONF server's configuration and state or to modify the NETCONF
 server's configuration. To this end, neither the client nor the server
