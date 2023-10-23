@@ -117,13 +117,14 @@ required for NETCONF {{RFC6241}}.
 The Security Considerations of {{RFC6241}}, {{RFC7589}}, and {{!RFC9325}}
 apply here as well.
 
-NETCONF implementations SHOULD follow the recommendations given in
+NETCONF implementations SHOULD follow the TLS recommendations given in
 {{RFC9325}}.
 
 For implementations that support TLS 1.3, the Security Considerations of
 TLS 1.3 {{I-D.ietf-tls-rfc8446bis}} apply.
 
 As specified in {{RFC7589}}, NETCONF over TLS requires mutual authentication.
+
 For implementations that support TLS 1.3 {{I-D.ietf-tls-rfc8446bis}}:
 
 > TLS 1.3 mutual authentication is used
@@ -163,4 +164,4 @@ registry entry would appear as follows:
 {:numbered="false"}
 
 We would like to thank Per Andersson, Jürgen Schönwälder, Jeff
-Hartley, and Qin Wu for their reviews.
+Hartley, Rob Wilton, and Qin Wu for their reviews.
