@@ -146,8 +146,8 @@ when the client checks the identity of the server, as is required in
 # IANA Considerations
 
 IANA is requested to add a reference to this document in the
-"netconf-tls" entry in the "Registered Port Numbers". The updated
-registry entry would appear as follows:
+"netconf-tls" entry in the "Service Name and Transport Protocol Port
+Number Registry". The updated registry entry would appear as follows:
 
      Service Name:           netconf-tls
      Transport Protocol(s):  TCP
