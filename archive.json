@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2023-12-19T00:42:36.881676+00:00",
+  "timestamp": "2023-12-21T00:41:52.301060+00:00",
   "repo": "netconf-wg/netconf-over-tls13",
   "labels": [
     {
@@ -1044,6 +1044,32 @@
           ]
         }
       ]
+    },
+    {
+      "number": 23,
+      "id": "PR_kwDOHg-2Os5ibbt-",
+      "title": "mutually authenticated is MUST",
+      "url": "https://github.com/netconf-wg/netconf-over-tls13/pull/23",
+      "state": "OPEN",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "To address part of Paul's comments; see #21.",
+      "createdAt": "2023-12-20T03:10:57Z",
+      "updatedAt": "2023-12-20T03:10:57Z",
+      "baseRepository": "netconf-wg/netconf-over-tls13",
+      "baseRefName": "main",
+      "baseRefOid": "77d23fc9c060d80ee421ec029b490f2215f8b476",
+      "headRepository": "netconf-wg/netconf-over-tls13",
+      "headRefName": "seanturner-paulw-mTLS",
+      "headRefOid": "945e9f2f977eb777a72b1cc9528d3f1361ced691",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }
