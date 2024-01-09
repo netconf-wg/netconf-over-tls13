@@ -62,7 +62,7 @@ connection closure, certificate validation, server identity, and client
 identity.
 
 <aside markdown="block">
-  Implementations that support TLS 1.3 {{I-D.ietf-tls-rfc8446bis}} should
+  NOTE: Implementations that support TLS 1.3 {{I-D.ietf-tls-rfc8446bis}} should
   refer to TLS 1.3 {{!I-D.ietf-tls-rfc8446bis}} in {{Sections 4 and 5 of RFC7589}}.
 </aside>
 
