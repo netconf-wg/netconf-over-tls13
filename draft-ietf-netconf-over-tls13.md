@@ -93,14 +93,14 @@ data.
 
 # Cipher Suites
 
-Implementations MUST support TLS 1.2 {{RFC5246}} and are REQUIRED to
+Implementations MUST support mutually authenticated TLS 1.2 {{RFC5246}} and are REQUIRED to
 support the TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 cipher suite {{!RFC9325}}.
 
 Implementations MAY implement additional TLS 1.2 cipher suites that provide
 mutual authentication {{RFC5246}} and confidentiality as required by
 NETCONF {{RFC6241}}.
 
-Implementations SHOULD support TLS 1.3 {{I-D.ietf-tls-rfc8446bis}} and,
+Implementations SHOULD support mutually authenticated TLS 1.3 {{I-D.ietf-tls-rfc8446bis}} and,
 if implemented, MUST prefer to negotiate TLS 1.3 over earlier versions
 of TLS.
 
