@@ -93,8 +93,9 @@ data.
 
 # Cipher Suites
 
-Implementations MUST support mutually authenticated TLS 1.2 {{RFC5246}} and are REQUIRED to
-support the TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 cipher suite {{!RFC9325}}.
+Implementations MUST support mutually authenticated TLS 1.2 {{RFC5246}} and
+they are, as specified in {{!RFC9325}}, recommended to support the cipher
+suites found in {{Section 4.2 of RFC9325}}.
 
 Implementations MAY implement additional TLS 1.2 cipher suites that provide
 mutual authentication {{RFC5246}} and confidentiality as required by
@@ -114,7 +115,7 @@ required for NETCONF {{RFC6241}}.
 
 # Security Considerations
 
-The Security Considerations of {{RFC6241}}, {{RFC7589}}, and {{!RFC9325}}
+The Security Considerations of {{RFC6241}}, {{RFC7589}}, and {{RFC9325}}
 apply here as well.
 
 NETCONF implementations SHOULD follow the TLS recommendations given in
