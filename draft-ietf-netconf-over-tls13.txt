@@ -6,7 +6,7 @@ Network Configuration                                          S. Turner
 Internet-Draft                                                     sn3rd
 Updates: 7589 (if approved)                                   R. Housley
 Intended status: Standards Track                          Vigil Security
-Expires: 12 July 2024                                     9 January 2024
+Expires: 21 July 2024                                    18 January 2024
 
 
   Updates to Using the NETCONF Protocol over Transport Layer Security
@@ -52,7 +52,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 12 July 2024.
+   This Internet-Draft will expire on 21 July 2024.
 
 Copyright Notice
 
@@ -129,8 +129,8 @@ Table of Contents
 4.  Cipher Suites
 
    Implementations MUST support mutually authenticated TLS 1.2 [RFC5246]
-   and are REQUIRED to support the TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
-   cipher suite [RFC9325].
+   and they are, as specified in [RFC9325], recommended to support the
+   cipher suites found in Section 4.2 of [RFC9325].
 
    Implementations MAY implement additional TLS 1.2 cipher suites that
    provide mutual authentication [RFC5246] and confidentiality as
