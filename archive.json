@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-01-18T00:42:50.764834+00:00",
+  "timestamp": "2024-01-21T00:47:49.049463+00:00",
   "repo": "netconf-wg/netconf-over-tls13",
   "labels": [
     {
@@ -103,15 +103,15 @@
       "id": "I_kwDOHg-2Os540ds4",
       "title": "Address Paul's AD DISCUSS Position",
       "url": "https://github.com/netconf-wg/netconf-over-tls13/issues/21",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "seanturner",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Paul's position can be found [here](https://datatracker.ietf.org/doc/draft-ietf-netconf-over-tls13/ballot/#draft-ietf-netconf-over-tls13_paul-wouters).",
       "createdAt": "2023-12-05T19:57:44Z",
-      "updatedAt": "2023-12-05T19:57:44Z",
-      "closedAt": null,
+      "updatedAt": "2024-01-18T19:49:50Z",
+      "closedAt": "2024-01-18T19:49:50Z",
       "comments": []
     }
   ],
@@ -1084,24 +1084,26 @@
       "id": "PR_kwDOHg-2Os5jnEOF",
       "title": "Address Paul's DISCUSS",
       "url": "https://github.com/netconf-wg/netconf-over-tls13/pull/24",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "seanturner",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Closes #21.",
       "createdAt": "2024-01-09T18:57:24Z",
-      "updatedAt": "2024-01-09T19:16:06Z",
+      "updatedAt": "2024-01-18T19:49:49Z",
       "baseRepository": "netconf-wg/netconf-over-tls13",
       "baseRefName": "main",
       "baseRefOid": "24d97e97099e2305cca7883c12a3bb2b65d89c17",
       "headRepository": "netconf-wg/netconf-over-tls13",
       "headRefName": "seanturner-paul-discuss",
       "headRefOid": "8192d2a1684a1876795e5a295c8c04f499007be1",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2024-01-18T19:49:49Z",
+      "mergedAt": "2024-01-18T19:49:48Z",
+      "mergedBy": "seanturner",
+      "mergeCommit": {
+        "oid": "224337221ba105c706a31ea0285fe66eb6b31469"
+      },
       "comments": [],
       "reviews": [
         {
