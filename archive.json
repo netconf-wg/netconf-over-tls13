@@ -1,0 +1,1125 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2024-06-23T00:49:49.084010+00:00",
+  "repo": "netconf-wg/netconf-over-tls13",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [
+    {
+      "number": 14,
+      "id": "I_kwDOHg-2Os50JU0E",
+      "title": "Address AD's review",
+      "url": "https://github.com/netconf-wg/netconf-over-tls13/issues/14",
+      "state": "CLOSED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Rob's review can be found [here](https://mailarchive.ietf.org/arch/msg/netconf/5b-WsWY2LA2wxYqUSPN94USd8fA/).",
+      "createdAt": "2023-10-18T01:42:16Z",
+      "updatedAt": "2023-10-18T14:29:34Z",
+      "closedAt": "2023-10-18T14:29:34Z",
+      "comments": []
+    },
+    {
+      "number": 16,
+      "id": "I_kwDOHg-2Os50pt1z",
+      "title": "FInal AD review comments",
+      "url": "https://github.com/netconf-wg/netconf-over-tls13/issues/16",
+      "state": "CLOSED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Last set can be found [here](https://mailarchive.ietf.org/arch/msg/netconf/ys8shNIS2Rw-vZs42LXAhGZ3bmM/).",
+      "createdAt": "2023-10-23T12:50:09Z",
+      "updatedAt": "2023-10-23T14:36:26Z",
+      "closedAt": "2023-10-23T14:36:26Z",
+      "comments": []
+    },
+    {
+      "number": 19,
+      "id": "I_kwDOHg-2Os52d6nv",
+      "title": "(editorial) Use full name of registry",
+      "url": "https://github.com/netconf-wg/netconf-over-tls13/issues/19",
+      "state": "CLOSED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "S11 includes \"Registered Port Numbers\" but the full name is \"Service Name and Transport Protocol Port Number Registry\"",
+      "createdAt": "2023-11-10T12:40:29Z",
+      "updatedAt": "2024-01-09T18:49:39Z",
+      "closedAt": "2024-01-09T18:49:39Z",
+      "comments": []
+    },
+    {
+      "number": 21,
+      "id": "I_kwDOHg-2Os540ds4",
+      "title": "Address Paul's AD DISCUSS Position",
+      "url": "https://github.com/netconf-wg/netconf-over-tls13/issues/21",
+      "state": "CLOSED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Paul's position can be found [here](https://datatracker.ietf.org/doc/draft-ietf-netconf-over-tls13/ballot/#draft-ietf-netconf-over-tls13_paul-wouters).",
+      "createdAt": "2023-12-05T19:57:44Z",
+      "updatedAt": "2024-01-18T19:49:50Z",
+      "closedAt": "2024-01-18T19:49:50Z",
+      "comments": []
+    }
+  ],
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDOHg-2Os4_XD_3",
+      "title": "Making some minor editor corrections",
+      "url": "https://github.com/netconf-wg/netconf-over-tls13/pull/1",
+      "state": "MERGED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2022-09-21T15:20:48Z",
+      "updatedAt": "2022-10-24T15:38:37Z",
+      "baseRepository": "netconf-wg/netconf-over-tls13",
+      "baseRefName": "main",
+      "baseRefOid": "2d8698d36eeec84c8d55b4db1690b365d5c9a90e",
+      "headRepository": "netconf-wg/netconf-over-tls13",
+      "headRefName": "seanturner-minor-tweaks",
+      "headRefOid": "b64dbb25df32afb856bf1b9b05209bc93aac0449",
+      "closedAt": "2022-10-24T15:38:37Z",
+      "mergedAt": "2022-10-24T15:38:37Z",
+      "mergedBy": "seanturner",
+      "mergeCommit": {
+        "oid": "2d91fc8443dee77e896e1e16490640b4525e76f0"
+      },
+      "comments": [
+        {
+          "author": "seanturner",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Will merge this into -01.",
+          "createdAt": "2022-10-12T02:14:36Z",
+          "updatedAt": "2022-10-12T02:14:36Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOHg-2Os5Cf5TZ",
+          "commit": {
+            "abbreviatedOid": "9ce959d"
+          },
+          "author": "russhousley",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2022-09-21T15:34:37Z",
+          "updatedAt": "2022-09-21T15:34:37Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "id": "PR_kwDOHg-2Os5AnM7r",
+      "title": "Tweaking repo and I-Ds .md to make it a WG draft",
+      "url": "https://github.com/netconf-wg/netconf-over-tls13/pull/2",
+      "state": "MERGED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Note that the \"venue\" portion willl add paragraphs to explain where the draft is discussed, the location of the GH repo, etc.",
+      "createdAt": "2022-10-12T02:03:02Z",
+      "updatedAt": "2022-10-12T16:01:48Z",
+      "baseRepository": "netconf-wg/netconf-over-tls13",
+      "baseRefName": "main",
+      "baseRefOid": "258a59e4758600ddbdb1b55d37980218b8687c23",
+      "headRepository": "netconf-wg/netconf-over-tls13",
+      "headRefName": "seanturner-wg-version-changes-1",
+      "headRefOid": "88a424808364d25c1c92e9037c120f6f627d5d97",
+      "closedAt": "2022-10-12T16:01:48Z",
+      "mergedAt": "2022-10-12T16:01:48Z",
+      "mergedBy": "seanturner",
+      "mergeCommit": {
+        "oid": "c57ecdb02eb5bad2e1a8b0011e6a6694c9c73d45"
+      },
+      "comments": [
+        {
+          "author": "russhousley",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Looks right to me.",
+          "createdAt": "2022-10-12T15:37:09Z",
+          "updatedAt": "2022-10-12T15:37:09Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 3,
+      "id": "PR_kwDOHg-2Os5AnOjQ",
+      "title": "Remove references to RFC 5539",
+      "url": "https://github.com/netconf-wg/netconf-over-tls13/pull/3",
+      "state": "MERGED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Based on J\u00fcrgen's [comment](https://mailarchive.ietf.org/arch/msg/netconf/dRPZqmFxI2uxGiw-_GGtO4H616g/) comment, it seems reasonable to remove the reference to [RFC 5339](https://datatracker.ietf.org/doc/rfc5539/).\r\n\r\nNote - will merge this into -01.",
+      "createdAt": "2022-10-12T02:14:20Z",
+      "updatedAt": "2022-10-12T15:35:24Z",
+      "baseRepository": "netconf-wg/netconf-over-tls13",
+      "baseRefName": "main",
+      "baseRefOid": "71ad431f71972fad0455ebcd8ffc6f051d9746d8",
+      "headRepository": "netconf-wg/netconf-over-tls13",
+      "headRefName": "seanturner-remove-ref-to-5539",
+      "headRefOid": "432811a2f1cb01cfc747f6a9447b1a1969d192f3",
+      "closedAt": "2022-10-12T15:35:24Z",
+      "mergedAt": "2022-10-12T15:35:24Z",
+      "mergedBy": "russhousley",
+      "mergeCommit": {
+        "oid": "258a59e4758600ddbdb1b55d37980218b8687c23"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 4,
+      "id": "PR_kwDOHg-2Os5Aqf-p",
+      "title": "Revert \"Remove references to RFC 5539\"",
+      "url": "https://github.com/netconf-wg/netconf-over-tls13/pull/4",
+      "state": "CLOSED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Reverts netconf-wg/netconf-over-tls13#3\r\n\r\nGoing to hold off merging this one until the WG -01 verssion.",
+      "createdAt": "2022-10-12T15:40:05Z",
+      "updatedAt": "2022-10-24T15:39:01Z",
+      "baseRepository": "netconf-wg/netconf-over-tls13",
+      "baseRefName": "main",
+      "baseRefOid": "258a59e4758600ddbdb1b55d37980218b8687c23",
+      "headRepository": "netconf-wg/netconf-over-tls13",
+      "headRefName": "revert-3-seanturner-remove-ref-to-5539",
+      "headRefOid": "2b8d88644e00cc1c481ace302d3aa6f082e7684b",
+      "closedAt": "2022-10-24T15:39:01Z",
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "russhousley",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Looks fine to me.",
+          "createdAt": "2022-10-12T15:45:29Z",
+          "updatedAt": "2022-10-12T15:45:29Z"
+        },
+        {
+          "author": "seanturner",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Fixed via #3.",
+          "createdAt": "2022-10-24T15:39:01Z",
+          "updatedAt": "2022-10-24T15:39:01Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 5,
+      "id": "PR_kwDOHg-2Os5BIWq4",
+      "title": "Aligning with draft-dhody-pce-pceps-tls13",
+      "url": "https://github.com/netconf-wg/netconf-over-tls13/pull/5",
+      "state": "MERGED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "[Dhruv](https://datatracker.ietf.org/person/Dhruv%20Dhody) noted the [PCEPS](https://datatracker.ietf.org/doc/rfc5440/) need the same kind of document. He created what essentially was fork. During PCE's consideration of the I-D, Adrian [noted](https://mailarchive.ietf.org/arch/msg/pce/q0H6u9kytU6-D-VrHdz1F_omgRw/) that some minor wording tweaks would clarify that the intention is to describe what NETCONF implementations that support TLS 1.3 are supposed to do, and that doesn't have any knock-on for other work.\r\n\r\nSince the I-Ds are doing the same thing just for different protocols, I figured I'd avoid an IESG comment/discuss by just aligning the two I-Ds.",
+      "createdAt": "2022-10-19T18:07:21Z",
+      "updatedAt": "2022-10-24T15:39:51Z",
+      "baseRepository": "netconf-wg/netconf-over-tls13",
+      "baseRefName": "main",
+      "baseRefOid": "2d8698d36eeec84c8d55b4db1690b365d5c9a90e",
+      "headRepository": "netconf-wg/netconf-over-tls13",
+      "headRefName": "seanturner-aligning",
+      "headRefOid": "475f9577103cf42fa1314bf76e477466acd6e0af",
+      "closedAt": "2022-10-24T15:39:51Z",
+      "mergedAt": "2022-10-24T15:39:50Z",
+      "mergedBy": "seanturner",
+      "mergeCommit": {
+        "oid": "4a859e9e6499315a8b640c8934618f814f06bf2f"
+      },
+      "comments": [
+        {
+          "author": "seanturner",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Plan to merge sometime soonish.",
+          "createdAt": "2022-10-19T18:19:13Z",
+          "updatedAt": "2022-10-19T18:19:13Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 6,
+      "id": "PR_kwDOHg-2Os5BbPTr",
+      "title": "Remove duplicate ED",
+      "url": "https://github.com/netconf-wg/netconf-over-tls13/pull/6",
+      "state": "MERGED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2022-10-24T15:43:13Z",
+      "updatedAt": "2022-10-24T15:44:03Z",
+      "baseRepository": "netconf-wg/netconf-over-tls13",
+      "baseRefName": "main",
+      "baseRefOid": "4a859e9e6499315a8b640c8934618f814f06bf2f",
+      "headRepository": "netconf-wg/netconf-over-tls13",
+      "headRefName": "seanturner-patch-1",
+      "headRefOid": "bb848c5e7e09ac74db6cd79a885dd3c8dbb21b62",
+      "closedAt": "2022-10-24T15:44:02Z",
+      "mergedAt": "2022-10-24T15:44:02Z",
+      "mergedBy": "seanturner",
+      "mergeCommit": {
+        "oid": "347bb1a87ab0b083a34b62e5a12bc35d221f9d5b"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 7,
+      "id": "PR_kwDOHg-2Os5JN8f1",
+      "title": "Remove cipher suite question in s4",
+      "url": "https://github.com/netconf-wg/netconf-over-tls13/pull/7",
+      "state": "MERGED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "As there were no comments on this we are removing it.",
+      "createdAt": "2023-02-03T16:46:15Z",
+      "updatedAt": "2023-03-09T15:08:20Z",
+      "baseRepository": "netconf-wg/netconf-over-tls13",
+      "baseRefName": "main",
+      "baseRefOid": "347bb1a87ab0b083a34b62e5a12bc35d221f9d5b",
+      "headRepository": "netconf-wg/netconf-over-tls13",
+      "headRefName": "seanturner-remove-cs_note",
+      "headRefOid": "4f124efca144d28459e6dd91cbdcf0fdb5d5d75c",
+      "closedAt": "2023-03-09T15:08:20Z",
+      "mergedAt": "2023-03-09T15:08:20Z",
+      "mergedBy": "seanturner",
+      "mergeCommit": {
+        "oid": "6035b7bfc72f3bbb824dde030ff9fd9b17504c23"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 8,
+      "id": "PR_kwDOHg-2Os5JN9ow",
+      "title": "Update RFC7525bis to RFC9325",
+      "url": "https://github.com/netconf-wg/netconf-over-tls13/pull/8",
+      "state": "MERGED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Fixing some I-D nit complaints.",
+      "createdAt": "2023-02-03T16:50:32Z",
+      "updatedAt": "2023-03-09T15:08:43Z",
+      "baseRepository": "netconf-wg/netconf-over-tls13",
+      "baseRefName": "main",
+      "baseRefOid": "347bb1a87ab0b083a34b62e5a12bc35d221f9d5b",
+      "headRepository": "netconf-wg/netconf-over-tls13",
+      "headRefName": "seanturner-rfc9325-ref",
+      "headRefOid": "3697066b5876af9414a0bb0c34177f8787feafe0",
+      "closedAt": "2023-03-09T15:08:43Z",
+      "mergedAt": "2023-03-09T15:08:42Z",
+      "mergedBy": "seanturner",
+      "mergeCommit": {
+        "oid": "197ac467ff97dfa49d30bfdf2c99bd9d2a2edade"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 9,
+      "id": "PR_kwDOHg-2Os5JOAYJ",
+      "title": "Editorial nit",
+      "url": "https://github.com/netconf-wg/netconf-over-tls13/pull/9",
+      "state": "MERGED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-02-03T16:57:42Z",
+      "updatedAt": "2023-03-09T15:09:02Z",
+      "baseRepository": "netconf-wg/netconf-over-tls13",
+      "baseRefName": "main",
+      "baseRefOid": "347bb1a87ab0b083a34b62e5a12bc35d221f9d5b",
+      "headRepository": "netconf-wg/netconf-over-tls13",
+      "headRefName": "seanturner-ed_nit",
+      "headRefOid": "a6f5452d775bd094ba70d512eb859a18f96ab3ed",
+      "closedAt": "2023-03-09T15:09:00Z",
+      "mergedAt": "2023-03-09T15:09:00Z",
+      "mergedBy": "seanturner",
+      "mergeCommit": {
+        "oid": "4d47da754ea823a454264b2d9f14e4b1fd500327"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 10,
+      "id": "PR_kwDOHg-2Os5Jo8Y2",
+      "title": "Tighten Up Security Considerations",
+      "url": "https://github.com/netconf-wg/netconf-over-tls13/pull/10",
+      "state": "MERGED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Based on comments from J\u00fcrgen.",
+      "createdAt": "2023-02-09T17:23:30Z",
+      "updatedAt": "2023-03-09T15:13:25Z",
+      "baseRepository": "netconf-wg/netconf-over-tls13",
+      "baseRefName": "main",
+      "baseRefOid": "4d47da754ea823a454264b2d9f14e4b1fd500327",
+      "headRepository": "netconf-wg/netconf-over-tls13",
+      "headRefName": "seanturner-sec-cons",
+      "headRefOid": "217b6a051ccb14b5d5dfc60a931c50db4c35d06d",
+      "closedAt": "2023-03-09T15:13:24Z",
+      "mergedAt": "2023-03-09T15:13:24Z",
+      "mergedBy": "seanturner",
+      "mergeCommit": {
+        "oid": "35e29e77fb954bf9b9e80027902bdd89b1285f1b"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOHg-2Os5NjgYe",
+          "commit": {
+            "abbreviatedOid": "c481c70"
+          },
+          "author": "seanturner",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-02-16T10:22:17Z",
+          "updatedAt": "2023-02-16T10:22:18Z",
+          "comments": [
+            {
+              "originalPosition": 28,
+              "body": "```suggestion\r\nThe Security Considerations of {{!I-D.ietf-uta-rfc6125bis}} apply to all implementations\r\n```",
+              "createdAt": "2023-02-16T10:22:17Z",
+              "updatedAt": "2023-02-16T10:22:18Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOHg-2Os5NkYn-",
+          "commit": {
+            "abbreviatedOid": "c481c70"
+          },
+          "author": "seanturner",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-02-16T12:55:24Z",
+          "updatedAt": "2023-02-16T12:55:24Z",
+          "comments": [
+            {
+              "originalPosition": 15,
+              "body": "```suggestion\r\napply to TLS 1.3 {{I-D.ietf-tls-rfc8446bis}}:\r\n```",
+              "createdAt": "2023-02-16T12:55:24Z",
+              "updatedAt": "2023-02-16T12:55:24Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "id": "PR_kwDOHg-2Os5JpOf9",
+      "title": "Update RFC 7589",
+      "url": "https://github.com/netconf-wg/netconf-over-tls13/pull/11",
+      "state": "MERGED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Based on J\u00fcrgen's comments.",
+      "createdAt": "2023-02-09T18:14:30Z",
+      "updatedAt": "2023-03-10T17:51:31Z",
+      "baseRepository": "netconf-wg/netconf-over-tls13",
+      "baseRefName": "main",
+      "baseRefOid": "35e29e77fb954bf9b9e80027902bdd89b1285f1b",
+      "headRepository": "netconf-wg/netconf-over-tls13",
+      "headRefName": "seanturner-updates7589",
+      "headRefOid": "138137647619bffd52658cb3f9cfcae60cee7c34",
+      "closedAt": "2023-03-10T17:51:31Z",
+      "mergedAt": "2023-03-10T17:51:31Z",
+      "mergedBy": "seanturner",
+      "mergeCommit": {
+        "oid": "2629223255557891fdba8ad5a8ab90e26e375b0a"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOHg-2Os5PYsgQ",
+          "commit": {
+            "abbreviatedOid": "5199878"
+          },
+          "author": "seanturner",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-03-09T01:58:54Z",
+          "updatedAt": "2023-03-09T01:58:55Z",
+          "comments": [
+            {
+              "originalPosition": 49,
+              "body": "```suggestion\r\nImplementations that support more than one version of TLS MUST\r\nprefer later versions of TLS over earlier versions of TLS.\r\n```",
+              "createdAt": "2023-03-09T01:58:54Z",
+              "updatedAt": "2023-03-09T01:58:55Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOHg-2Os5PYt_4",
+          "commit": {
+            "abbreviatedOid": "5199878"
+          },
+          "author": "seanturner",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-03-09T02:08:31Z",
+          "updatedAt": "2023-03-09T02:08:31Z",
+          "comments": [
+            {
+              "originalPosition": 49,
+              "body": "Russ suggested this version of the text to better future proof it.",
+              "createdAt": "2023-03-09T02:08:31Z",
+              "updatedAt": "2023-03-09T02:08:31Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOHg-2Os5PhTF4",
+          "commit": {
+            "abbreviatedOid": "5199878"
+          },
+          "author": "seanturner",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-03-10T03:54:38Z",
+          "updatedAt": "2023-03-10T03:54:38Z",
+          "comments": [
+            {
+              "originalPosition": 27,
+              "body": "```suggestion\r\nTLS 1.2 {{!RFC5246}}. This document defines how to protect\r\n```",
+              "createdAt": "2023-03-10T03:54:38Z",
+              "updatedAt": "2023-03-10T03:54:38Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOHg-2Os5PlR3n",
+          "commit": {
+            "abbreviatedOid": "5199878"
+          },
+          "author": "seanturner",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-03-10T16:24:36Z",
+          "updatedAt": "2023-03-10T16:24:37Z",
+          "comments": [
+            {
+              "originalPosition": 41,
+              "body": "```suggestion\r\nsupport the TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 cipher suite {{RFC9325}}.\r\n```",
+              "createdAt": "2023-03-10T16:24:36Z",
+              "updatedAt": "2023-03-10T16:24:37Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOHg-2Os5PlSUh",
+          "commit": {
+            "abbreviatedOid": "5199878"
+          },
+          "author": "seanturner",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-03-10T16:25:43Z",
+          "updatedAt": "2023-03-10T16:25:43Z",
+          "comments": [
+            {
+              "originalPosition": 41,
+              "body": "Leaving the MIT pinned to TLS 1.2's MTI, which is TLS_RSA_WITH_AES_128_CBC_SHA, would never get through the IESG. Should be pinned to RFC 9325.",
+              "createdAt": "2023-03-10T16:25:43Z",
+              "updatedAt": "2023-03-10T16:25:43Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOHg-2Os5PlS1F",
+          "commit": {
+            "abbreviatedOid": "5199878"
+          },
+          "author": "seanturner",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-03-10T16:27:01Z",
+          "updatedAt": "2023-03-10T16:27:02Z",
+          "comments": [
+            {
+              "originalPosition": 49,
+              "body": "Decided to leave it alone. When there's a new TLS version there will no doubt be a new cipher suite so this section will need to change regardless.",
+              "createdAt": "2023-03-10T16:27:01Z",
+              "updatedAt": "2023-03-10T16:27:02Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOHg-2Os5PlT8W",
+          "commit": {
+            "abbreviatedOid": "5199878"
+          },
+          "author": "seanturner",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-03-10T16:29:15Z",
+          "updatedAt": "2023-03-10T16:29:15Z",
+          "comments": [
+            {
+              "originalPosition": 43,
+              "body": "```suggestion\r\nImplementations MAY implement additional TLS 1.2 cipher suites that provide\r\n```",
+              "createdAt": "2023-03-10T16:29:15Z",
+              "updatedAt": "2023-03-10T16:29:15Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOHg-2Os5Plc9D",
+          "commit": {
+            "abbreviatedOid": "4473377"
+          },
+          "author": "seanturner",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-03-10T16:44:25Z",
+          "updatedAt": "2023-03-10T16:44:25Z",
+          "comments": [
+            {
+              "originalPosition": 18,
+              "body": "```suggestion\r\nthe mandatory to implement TLS 1.2 cipher suites and TLS 1.3.\r\n```",
+              "createdAt": "2023-03-10T16:44:25Z",
+              "updatedAt": "2023-03-10T16:44:25Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOHg-2Os5Pldnt",
+          "commit": {
+            "abbreviatedOid": "4473377"
+          },
+          "author": "seanturner",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-03-10T16:45:41Z",
+          "updatedAt": "2023-03-10T16:45:42Z",
+          "comments": [
+            {
+              "originalPosition": 18,
+              "body": "```suggestion\r\nthe mandatory to implement TLS 1.2 cipher suite and TLS 1.3.\r\n```",
+              "createdAt": "2023-03-10T16:45:41Z",
+              "updatedAt": "2023-03-10T16:45:42Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOHg-2Os5Pld0w",
+          "commit": {
+            "abbreviatedOid": "81f0780"
+          },
+          "author": "seanturner",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-03-10T16:46:15Z",
+          "updatedAt": "2023-03-10T16:46:16Z",
+          "comments": [
+            {
+              "originalPosition": 30,
+              "body": "```suggestion\r\nthe mandatory to implement TLS 1.2 cipher suite and TLS 1.3 {{!I-D.ietf-tls-rfc8446bis}}.\r\n```",
+              "createdAt": "2023-03-10T16:46:15Z",
+              "updatedAt": "2023-03-10T16:46:16Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOHg-2Os5PlntW",
+          "commit": {
+            "abbreviatedOid": "04290fb"
+          },
+          "author": "seanturner",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-03-10T17:12:23Z",
+          "updatedAt": "2023-03-10T17:12:23Z",
+          "comments": [
+            {
+              "originalPosition": 18,
+              "body": "```suggestion\r\nRFC 7589 defines how to protect NETCONF messages with TLS 1.2. This\r\ndocument updates RFC 8325 to address TLS 1.2 and TLS 1.3 cipher\r\nsuites, support requirements for TLS 1.2 and TLS 1.3, and the\r\nuse of TLS 1.3's early data, which is also known as 0-RTT data.\r\n```",
+              "createdAt": "2023-03-10T17:12:23Z",
+              "updatedAt": "2023-03-10T17:12:23Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOHg-2Os5Pltf-",
+          "commit": {
+            "abbreviatedOid": "30414f3"
+          },
+          "author": "seanturner",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-03-10T17:22:11Z",
+          "updatedAt": "2023-03-10T17:22:11Z",
+          "comments": [
+            {
+              "originalPosition": 18,
+              "body": "```suggestion\r\ndocument updates RFC 8325 to address support requirements for TLS 1.2\r\nand TLS 1.3 and the use of TLS 1.3's early data.\r\n```",
+              "createdAt": "2023-03-10T17:22:11Z",
+              "updatedAt": "2023-03-10T17:22:11Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOHg-2Os5Pl6gD",
+          "commit": {
+            "abbreviatedOid": "df01f26"
+          },
+          "author": "seanturner",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-03-10T17:49:59Z",
+          "updatedAt": "2023-03-10T17:49:59Z",
+          "comments": [
+            {
+              "originalPosition": 40,
+              "body": "```suggestion\r\nsupport the TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 cipher suite {{!RFC9325}}.\r\n```",
+              "createdAt": "2023-03-10T17:49:59Z",
+              "updatedAt": "2023-03-10T17:49:59Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "id": "PR_kwDOHg-2Os5JpRSk",
+      "title": "Updating Acknowledgments Section",
+      "url": "https://github.com/netconf-wg/netconf-over-tls13/pull/12",
+      "state": "MERGED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-02-09T18:25:37Z",
+      "updatedAt": "2023-03-10T17:52:51Z",
+      "baseRepository": "netconf-wg/netconf-over-tls13",
+      "baseRefName": "main",
+      "baseRefOid": "347bb1a87ab0b083a34b62e5a12bc35d221f9d5b",
+      "headRepository": "netconf-wg/netconf-over-tls13",
+      "headRefName": "seanturner-ack-section",
+      "headRefOid": "b8db36fc041295d85c6e14991e5736405def0e2e",
+      "closedAt": "2023-03-10T17:52:51Z",
+      "mergedAt": "2023-03-10T17:52:51Z",
+      "mergedBy": "seanturner",
+      "mergeCommit": {
+        "oid": "24972a180ed79df055ca5554bc5565b1234adc54"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOHg-2Os5NkXEI",
+          "commit": {
+            "abbreviatedOid": "47c72b6"
+          },
+          "author": "seanturner",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-02-16T12:51:12Z",
+          "updatedAt": "2023-02-16T12:51:13Z",
+          "comments": [
+            {
+              "originalPosition": 6,
+              "body": "```suggestion\r\nWe would like to thank Per Andersson, J\u00fcrgen Sch\u00f6nw\u00e4lder, Jeff\r\nHartley, and Qin Wu for their reviews.\r\n```",
+              "createdAt": "2023-02-16T12:51:12Z",
+              "updatedAt": "2023-02-16T12:51:13Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "id": "PR_kwDOHg-2Os5Ly3IH",
+      "title": "Title and Intro Tweaks",
+      "url": "https://github.com/netconf-wg/netconf-over-tls13/pull/13",
+      "state": "MERGED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "We probably need to change the title to not just be about TLS 1.3 now that this I-D updates 7589.",
+      "createdAt": "2023-03-10T19:18:33Z",
+      "updatedAt": "2023-03-10T19:23:42Z",
+      "baseRepository": "netconf-wg/netconf-over-tls13",
+      "baseRefName": "main",
+      "baseRefOid": "24972a180ed79df055ca5554bc5565b1234adc54",
+      "headRepository": "netconf-wg/netconf-over-tls13",
+      "headRefName": "seanturner-more-7589-updates",
+      "headRefOid": "12d34a4670598d5569a5e20756ed90ad39e12e97",
+      "closedAt": "2023-03-10T19:23:41Z",
+      "mergedAt": "2023-03-10T19:23:41Z",
+      "mergedBy": "seanturner",
+      "mergeCommit": {
+        "oid": "8ede5f6f5c4cabf764f720af7305c9dadea96a57"
+      },
+      "comments": [
+        {
+          "author": "russhousley",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Looks fine to me",
+          "createdAt": "2023-03-10T19:22:18Z",
+          "updatedAt": "2023-03-10T19:22:18Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 15,
+      "id": "PR_kwDOHg-2Os5dFPlB",
+      "title": "Address AD review comments",
+      "url": "https://github.com/netconf-wg/netconf-over-tls13/pull/15",
+      "state": "MERGED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Closes #14.",
+      "createdAt": "2023-10-18T02:10:12Z",
+      "updatedAt": "2023-10-18T14:29:33Z",
+      "baseRepository": "netconf-wg/netconf-over-tls13",
+      "baseRefName": "main",
+      "baseRefOid": "8ede5f6f5c4cabf764f720af7305c9dadea96a57",
+      "headRepository": "netconf-wg/netconf-over-tls13",
+      "headRefName": "seanturner-ad-review",
+      "headRefOid": "6f5d559c57349ee4a3098e3b6d5818c1f83261bf",
+      "closedAt": "2023-10-18T14:29:33Z",
+      "mergedAt": "2023-10-18T14:29:33Z",
+      "mergedBy": "russhousley",
+      "mergeCommit": {
+        "oid": "0c4ad917d8ed841900988a7f3114f7437fe541c7"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOHg-2Os5kcvAc",
+          "commit": {
+            "abbreviatedOid": "6f5d559"
+          },
+          "author": "russhousley",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2023-10-18T14:29:23Z",
+          "updatedAt": "2023-10-18T14:29:23Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "id": "PR_kwDOHg-2Os5dhuWa",
+      "title": "Resolving final AD review comments",
+      "url": "https://github.com/netconf-wg/netconf-over-tls13/pull/17",
+      "state": "MERGED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Closes #16 ",
+      "createdAt": "2023-10-23T12:53:39Z",
+      "updatedAt": "2023-10-23T14:36:25Z",
+      "baseRepository": "netconf-wg/netconf-over-tls13",
+      "baseRefName": "main",
+      "baseRefOid": "0c4ad917d8ed841900988a7f3114f7437fe541c7",
+      "headRepository": "netconf-wg/netconf-over-tls13",
+      "headRefName": "seanturner-AD-comments2",
+      "headRefOid": "f8a091a94807be68fa4cee8c9dcaec76df9e5933",
+      "closedAt": "2023-10-23T14:36:25Z",
+      "mergedAt": "2023-10-23T14:36:25Z",
+      "mergedBy": "seanturner",
+      "mergeCommit": {
+        "oid": "77d23fc9c060d80ee421ec029b490f2215f8b476"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOHg-2Os5k4tyD",
+          "commit": {
+            "abbreviatedOid": "f8a091a"
+          },
+          "author": "russhousley",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2023-10-23T13:39:08Z",
+          "updatedAt": "2023-10-23T13:39:08Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "id": "PR_kwDOHg-2Os5eoPu6",
+      "title": "Update Aside",
+      "url": "https://github.com/netconf-wg/netconf-over-tls13/pull/18",
+      "state": "MERGED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-11-05T23:14:53Z",
+      "updatedAt": "2024-01-09T18:49:13Z",
+      "baseRepository": "netconf-wg/netconf-over-tls13",
+      "baseRefName": "main",
+      "baseRefOid": "77d23fc9c060d80ee421ec029b490f2215f8b476",
+      "headRepository": "netconf-wg/netconf-over-tls13",
+      "headRefName": "seanturner-aside",
+      "headRefOid": "16838cfc0bb45c7a820d80762b78028eb6e32ff0",
+      "closedAt": "2024-01-09T18:49:13Z",
+      "mergedAt": "2024-01-09T18:49:13Z",
+      "mergedBy": "seanturner",
+      "mergeCommit": {
+        "oid": "6dbfce0e7f6ac0da918e0ab30fcf7bd0d256e84a"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 20,
+      "id": "PR_kwDOHg-2Os5fIyv7",
+      "title": "Update draft-ietf-netconf-over-tls13.md",
+      "url": "https://github.com/netconf-wg/netconf-over-tls13/pull/20",
+      "state": "MERGED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Fixes #19.",
+      "createdAt": "2023-11-10T12:42:24Z",
+      "updatedAt": "2024-01-09T18:49:38Z",
+      "baseRepository": "netconf-wg/netconf-over-tls13",
+      "baseRefName": "main",
+      "baseRefOid": "77d23fc9c060d80ee421ec029b490f2215f8b476",
+      "headRepository": "netconf-wg/netconf-over-tls13",
+      "headRefName": "seanturner-reg-name",
+      "headRefOid": "de414781501448256de4d663d658b639dfb31b36",
+      "closedAt": "2024-01-09T18:49:38Z",
+      "mergedAt": "2024-01-09T18:49:38Z",
+      "mergedBy": "seanturner",
+      "mergeCommit": {
+        "oid": "32e273951b7bf1769b6c4d0d76638738145e5a16"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 22,
+      "id": "PR_kwDOHg-2Os5hORZw",
+      "title": "Update ref",
+      "url": "https://github.com/netconf-wg/netconf-over-tls13/pull/22",
+      "state": "MERGED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "[I-D.ietf-uta-rfc6125bis]  is now RFC9525",
+      "createdAt": "2023-12-05T20:01:37Z",
+      "updatedAt": "2024-01-09T18:49:56Z",
+      "baseRepository": "netconf-wg/netconf-over-tls13",
+      "baseRefName": "main",
+      "baseRefOid": "77d23fc9c060d80ee421ec029b490f2215f8b476",
+      "headRepository": "netconf-wg/netconf-over-tls13",
+      "headRefName": "seanturner-rfc9525-ref",
+      "headRefOid": "e88308531df4097c2a17ac70055ff92f88466de1",
+      "closedAt": "2024-01-09T18:49:56Z",
+      "mergedAt": "2024-01-09T18:49:56Z",
+      "mergedBy": "seanturner",
+      "mergeCommit": {
+        "oid": "2243548f0ed397067e75d7e540d8c2c8fdd631e9"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOHg-2Os5pQxYk",
+          "commit": {
+            "abbreviatedOid": "c6669ae"
+          },
+          "author": "seanturner",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-12-05T20:01:51Z",
+          "updatedAt": "2023-12-05T20:01:51Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "```suggestion\r\nThe Security Considerations of {{!RFC9525}} apply to all implementations\r\n```",
+              "createdAt": "2023-12-05T20:01:51Z",
+              "updatedAt": "2023-12-05T20:01:51Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "id": "PR_kwDOHg-2Os5ibbt-",
+      "title": "mutually authenticated is MUST",
+      "url": "https://github.com/netconf-wg/netconf-over-tls13/pull/23",
+      "state": "MERGED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "To address part of Paul's comments; see #21.",
+      "createdAt": "2023-12-20T03:10:57Z",
+      "updatedAt": "2024-01-09T18:50:15Z",
+      "baseRepository": "netconf-wg/netconf-over-tls13",
+      "baseRefName": "main",
+      "baseRefOid": "77d23fc9c060d80ee421ec029b490f2215f8b476",
+      "headRepository": "netconf-wg/netconf-over-tls13",
+      "headRefName": "seanturner-paulw-mTLS",
+      "headRefOid": "945e9f2f977eb777a72b1cc9528d3f1361ced691",
+      "closedAt": "2024-01-09T18:50:15Z",
+      "mergedAt": "2024-01-09T18:50:15Z",
+      "mergedBy": "seanturner",
+      "mergeCommit": {
+        "oid": "24d97e97099e2305cca7883c12a3bb2b65d89c17"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 24,
+      "id": "PR_kwDOHg-2Os5jnEOF",
+      "title": "Address Paul's DISCUSS",
+      "url": "https://github.com/netconf-wg/netconf-over-tls13/pull/24",
+      "state": "MERGED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Closes #21.",
+      "createdAt": "2024-01-09T18:57:24Z",
+      "updatedAt": "2024-01-18T19:49:49Z",
+      "baseRepository": "netconf-wg/netconf-over-tls13",
+      "baseRefName": "main",
+      "baseRefOid": "24d97e97099e2305cca7883c12a3bb2b65d89c17",
+      "headRepository": "netconf-wg/netconf-over-tls13",
+      "headRefName": "seanturner-paul-discuss",
+      "headRefOid": "8192d2a1684a1876795e5a295c8c04f499007be1",
+      "closedAt": "2024-01-18T19:49:49Z",
+      "mergedAt": "2024-01-18T19:49:48Z",
+      "mergedBy": "seanturner",
+      "mergeCommit": {
+        "oid": "224337221ba105c706a31ea0285fe66eb6b31469"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOHg-2Os5r_k-p",
+          "commit": {
+            "abbreviatedOid": "8192d2a"
+          },
+          "author": "OR13",
+          "authorAssociation": "NONE",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-01-09T19:16:06Z",
+          "updatedAt": "2024-01-09T19:16:06Z",
+          "comments": []
+        }
+      ]
+    }
+  ]
+}
