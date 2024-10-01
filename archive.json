@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-09-10T00:52:41.091787+00:00",
+  "timestamp": "2024-10-01T01:00:20.637562+00:00",
   "repo": "netconf-wg/netconf-over-tls13",
   "labels": [
     {
@@ -1120,6 +1120,34 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 25,
+      "id": "PR_kwDOHg-2Os58QtZt",
+      "title": "Update workflows",
+      "url": "https://github.com/netconf-wg/netconf-over-tls13/pull/25",
+      "state": "MERGED",
+      "author": "seanturner",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Update archive.yml.",
+      "createdAt": "2024-09-22T02:07:24Z",
+      "updatedAt": "2024-09-30T00:40:35Z",
+      "baseRepository": "netconf-wg/netconf-over-tls13",
+      "baseRefName": "main",
+      "baseRefOid": "224337221ba105c706a31ea0285fe66eb6b31469",
+      "headRepository": "netconf-wg/netconf-over-tls13",
+      "headRefName": "seanturner-update-workflows",
+      "headRefOid": "dceb3b24f2deb4f53815dab59dcb8006cb6f4782",
+      "closedAt": "2024-09-30T00:40:35Z",
+      "mergedAt": "2024-09-30T00:40:35Z",
+      "mergedBy": "seanturner",
+      "mergeCommit": {
+        "oid": "8b30a1656838a3d7b4fe7483629ad273ce9c6cad"
+      },
+      "comments": [],
+      "reviews": []
     }
   ]
 }
